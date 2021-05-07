@@ -22,7 +22,7 @@
   </bean>
   
  <bean id="ventana3" class="mx.uam.is.practicadiseno.vista.Ventana">
-	<constructor-arg><ref bean="ma nejador"/></constructor-arg>
+	<constructor-arg><ref bean="manejador"/></constructor-arg>
   	<property name="visible" value="true"/>
  </bean>
 

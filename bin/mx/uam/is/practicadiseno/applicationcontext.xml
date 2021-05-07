@@ -17,13 +17,11 @@
   </bean>
   
  <bean id="ventana2" class="mx.uam.is.practicadiseno.vista.Ventana">
-	
 	<constructor-arg><ref bean="manejador"/></constructor-arg>
   	<property name="visible" value="true"/>
   </bean>
   
  <bean id="ventana3" class="mx.uam.is.practicadiseno.vista.Ventana">
-	
 	<constructor-arg><ref bean="manejador"/></constructor-arg>
   	<property name="visible" value="true"/>
  </bean>
